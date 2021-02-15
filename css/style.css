@@ -1,0 +1,20 @@
+/* GENERAL STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#bce8f9;
+    font-family: 'Nerko One', cursive;
+}
+
+
+/* HEADER */
+header h1{
+    font-size: 80px;
+    color:#fff;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+}
