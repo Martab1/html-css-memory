@@ -10,11 +10,66 @@ body{
     font-family: 'Nerko One', cursive;
 }
 
-
 /* HEADER */
+
 header h1{
-    font-size: 80px;
+    font-size: 90px;
     color:#fff;
     text-shadow: 1px 1px grey;
     text-align: center;
+}
+
+
+/* MAIN */
+
+
+main .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main .box{
+    width:180px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom:30px ;
+    background-color: #fff;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 2px #3e393961;
+    float: left;
+
+}
+
+.active img{
+    width: 130px;
+    margin-left:25px;
+    margin-top: 12px;
+    
+    
+}
+
+h3{
+   text-align: center; 
+   font-size: 26px;
+   margin-bottom:10px;
+   
+}
+
+.active h3{
+    color: rgb(233, 67, 136);
+}
+
+
+.box:not(.active){
+    background-image: url("../img/pattern.png");
+    background-size: contain;
 }
