@@ -49,23 +49,17 @@ main .box{
 
 }
 
-.active img{
+.sec-row .active img{
     width: 130px;
     margin-left:25px;
     margin-top: 12px;
-    
-    
 }
 
-h3{
-   text-align: center; 
-   font-size: 26px;
-   margin-bottom:10px;
-   
-}
-
-.active h3{
+.sec-row .active h3{
     color: rgb(233, 67, 136);
+    text-align: center; 
+    font-size: 26px;
+    margin-bottom:10px;
 }
 
 
@@ -73,3 +67,79 @@ h3{
     background-image: url("../img/pattern.png");
     background-size: contain;
 }
+
+.description{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 150px;
+    opacity: 0;
+}
+
+/* HOVER */
+
+
+.description:hover{
+    opacity: 100%;
+}
+    
+.box:hover{
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+
+.first-row .box:first-child:hover{
+    background-image: url("../img/noun_Bicycle_3134821.png");
+}
+
+.first-row .box:nth-child(2):hover{
+    background-image: url("../img/noun_Tractor_3134797.png");
+}
+
+.first-row .box:nth-child(3):hover{
+    background-image: url("../img/noun_air_balloon_3134741.png");
+}
+
+.first-row .box:last-child:hover{
+    background-image: url("../img/noun_Cruise_Ship_3134824.png");
+}
+
+.sec-row .box:first-child:hover{
+    background-image: url("../img/noun_Submarine_3134738.png");
+}
+
+.sec-row .box:last-child:hover{
+    background-image: url("../img/noun_Submarine_3134738.png");
+ }
+
+
+ .sec-row .box:nth-child(3):hover{
+     background-image: url("../img/noun_Tram_3134750.png");
+ }
+
+
+.trd-row .box:first-child:hover{
+    background-image: url("../img/noun_Tractor_3134797.png");
+}
+
+.trd-row .box:nth-child(2):hover{
+    background-image: url("../img/noun_Bicycle_3134821.png");
+
+}
+
+.trd-row .box:nth-child(3):hover{
+    background-image: url("../img/noun_Cruise_Ship_3134824.png");
+}
+
+.trd-row .box:last-child:hover{
+    background-image: url("../img/noun_Tram_3134750.png");
+}
+
+
+
+
+
+
+
