@@ -81,18 +81,18 @@ main .box{
 /* HOVER */
 
 
-.description:hover{
-    opacity: 100%;
-}
+
     
 .box:hover{
-    background-size: 140px;
+    background-size: 130px;
     background-repeat: no-repeat;
     background-position: top center;
     
 }
 
-
+.box:hover .description{
+    opacity:1;
+}
 
 .first-row .box:first-child:hover{
     background-image: url("../img/noun_Bicycle_3134821.png");
