@@ -30,6 +30,7 @@ main .clearfix::after{
 }
 
 main{
+    width: 800px;
     position: absolute;
     top:50%;
     left: 50%;
@@ -60,6 +61,7 @@ main .box{
     text-align: center; 
     font-size: 26px;
     margin-bottom:10px;
+    text-shadow: 1px 1px grey;
 }
 
 
@@ -73,6 +75,7 @@ main .box{
     font-size: 26px;
     margin-top: 150px;
     opacity: 0;
+    text-shadow: 1px 1px grey;
 }
 
 /* HOVER */
@@ -85,7 +88,8 @@ main .box{
 .box:hover{
     background-size: 140px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top center;
+    
 }
 
 
@@ -137,9 +141,38 @@ main .box{
     background-image: url("../img/noun_Tram_3134750.png");
 }
 
+/* description color */
+.bicycle{
+    color:steelblue;
+}
+
+.tractor{
+    color:orange;
+}
+
+.ship{
+    color:rebeccapurple;
+}
+
+.baloon{
+    color: rgb(233, 67, 136);
+}
+
+.submarine{
+    color:salmon;
+}
 
 
+/* FOOTER */
 
+ footer{
+     position: absolute;
+     top:90%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     font-size: 20px;
+  
+ }
 
 
 
